@@ -43,12 +43,10 @@ dataSources:
           handler: handleAddedBlackList
         - event: RemovedBlackList(address)
           handler: handleRemovedBlackList
-        - event: Approval(indexed address,indexed address,uint256)
-          handler: handleApproval
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
-        - event: Pause()
-          handler: handlePause
-        - event: Unpause()
-          handler: handleUnpause
+        # - event: Pause()
+        #   handler: handlePause
+        # - event: Unpause()
+        #   handler: handleUnpause
       file: ./src/tether-token.ts
