@@ -33,10 +33,10 @@ dataSources:
           handler: handleIssue
         - event: Redeem(uint256)
           handler: handleRedeem
-        - event: Deprecate(address)
-          handler: handleDeprecate
-        - event: Params(uint256,uint256)
-          handler: handleParams
+        # - event: Deprecate(address)
+        #   handler: handleDeprecate
+        # - event: Params(uint256,uint256)
+        #   handler: handleParams
         - event: DestroyedBlackFunds(address,uint256)
           handler: handleDestroyedBlackFunds
         - event: AddedBlackList(address)
