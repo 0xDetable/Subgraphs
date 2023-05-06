@@ -16,15 +16,15 @@ dataSources:
       entities:
         - Issue
         - Redeem
-        - Deprecate
-        - Params
+        # - Deprecate
+        # - Params
         - DestroyedBlackFunds
         - AddedBlackList
         - RemovedBlackList
-        - Approval
+        # - Approval
         - Transfer
-        - Pause
-        - Unpause
+        # - Pause
+        # - Unpause
       abis:
         - name: TetherToken
           file: ./abis/TetherToken.json
