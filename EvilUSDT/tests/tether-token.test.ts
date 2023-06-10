@@ -5,7 +5,7 @@ import {
   clearStore,
   beforeAll,
   afterAll
-} from "matchstick-as/assembly/index"
+} from "matchstick-as"
 import { BigInt, Address } from "@graphprotocol/graph-ts"
 import { Issue } from "../generated/schema"
 import { Issue as IssueEvent } from "../generated/TetherToken/TetherToken"
