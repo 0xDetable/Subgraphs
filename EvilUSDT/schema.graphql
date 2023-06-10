@@ -31,7 +31,7 @@ type Redeem @entity(immutable: true) {
 #   transactionHash: Bytes!
 # }
 
-type DestroyedBlackFunds @entity(immutable: true) {
+type DestroyedBlackFund @entity(immutable: true) {
   id: Bytes!
   _blackListedUser: Bytes! # address
   _balance: BigInt! # uint256
