@@ -9,7 +9,7 @@ import {
 import {
   Issue,
   Redeem,
-  DestroyedBlackFunds,
+  DestroyedBlackFund,
   AddedBlackList,
   RemovedBlackList,
   Transfer,
@@ -44,7 +44,7 @@ export function handleRedeem(event: RedeemEvent): void {
 export function handleDestroyedBlackFunds(
   event: DestroyedBlackFundsEvent
 ): void {
-  let entity = new DestroyedBlackFunds(
+  let entity = new DestroyedBlackFund(
     event.transaction.hash.concatI32(event.logIndex.toI32())
   )
   entity._blackListedUser = event.params._blackListedUser

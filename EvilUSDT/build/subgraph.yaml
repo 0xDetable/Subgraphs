@@ -16,7 +16,7 @@ dataSources:
       entities:
         - Issue
         - Redeem
-        - DestroyedBlackFunds
+        - DestroyedBlackFund
         - AddedBlackList
         - RemovedBlackList
         - Transfer
